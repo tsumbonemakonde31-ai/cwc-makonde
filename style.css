@@ -1,0 +1,16 @@
+/* Custom Styles for things Tailwind doesn't cover easily */
+/* Hero Background Image */
+/* You can delete this entire block */
+.hero-bg {
+    background-color: #1e1b4b;
+    background-image: url('church-welcome.jpg'); 
+    background-size: cover;
+    background-position: 50% 15%; 
+    background-repeat: no-repeat;
+}
+
+.glass-nav {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(229, 231, 235, 0.5);
+}
